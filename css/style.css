@@ -1,0 +1,65 @@
+body{
+  background-image: url(../immagini/sfondo.jpg);
+  background-size: cover;
+}
+
+.container{
+  width: 800px;
+  margin: auto;
+}
+
+hr{
+  border-bottom: 1px solid white;
+}
+
+.logo{
+  height: 90px;
+  vertical-align: middle;
+}
+
+h1{
+  display: inline;
+  color: white;
+}
+
+.search{
+  padding-left: 5px;
+}
+
+.unread{
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 5px;
+}
+
+.rotondo{
+  display: inline-block;
+  /* la width e height non possono essere segnati ad elamenti inline */
+  width: 30px;
+  height: 30px;
+  background-color: orange;
+  border-radius: 50%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.testo-email{
+  display: inline;
+}
+.testo-grigio{
+  color: grey;
+}
+.riga-email{
+  background-color: lightgrey;
+  border: 1px solid black;
+  padding: 5px;
+}
+.read{
+  background-color: white;
+}
+
+footer{
+  text-align: center;
+  color: white;
+}
